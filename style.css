@@ -1,3 +1,42 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  display: grid;
+  grid-template-areas: "header header header"
+    "espac1 main espac2";
+  grid-template-columns: 1fr 3fr 1fr;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  align-items: center;
+  background-color: black;
+  color: white;
+  display: flex;
+  grid-area: header;
+  justify-content: center;
+  height: 10vh;
+}
+
+#espac1 {
+  grid-area: espac1;
+  background-color: #b5b5b5;
+}
+
+#main {
+  grid-area: main;
+  padding: 5px
+}
+
+#espac2 {
+  grid-area: espac2;
+  background-color: #b5b5b5;
+}
