@@ -21,7 +21,12 @@ img{
   margin: 0 auto;
   display: block; 
 }
-
+footer{
+  color: white;
+  padding: 50px;
+  margin-top: 50px;
+  background-color: black;
+}
 
 #header {
   align-items: center;
@@ -47,3 +52,5 @@ img{
   grid-area: espac2;
   background-color: #b5b5b5;
 }
+
+
